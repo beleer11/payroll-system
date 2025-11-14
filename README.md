@@ -11,8 +11,8 @@ Asegúrate de tener instalados: - Docker - Docker Compose - Node.js
 
 ## 🚀 1. Clonar el repositorio
 
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_PROYECTO>
+    git clone https://github.com/beleer11/payroll-system.git
+    cd payroll-system
 
 ## 🐳 2. Iniciar los contenedores con Docker
 
@@ -20,7 +20,7 @@ Asegúrate de tener instalados: - Docker - Docker Compose - Node.js
 
 ## 🔧 3. Instalar dependencias de Laravel
 
-    docker compose exec app composer install
+    composer install
 
 ## 🔧 4. Instalar dependencias de Node
 
@@ -28,15 +28,15 @@ Asegúrate de tener instalados: - Docker - Docker Compose - Node.js
 
 ## 🔑 5. Generar clave de la aplicación
 
-    docker compose exec app php artisan key:generate
+    php artisan key:generate
 
 ## 🗄️ 6. Ejecutar migraciones
 
-    docker compose exec app php artisan migrate
+    php artisan migrate
 
 ## 🌱 7. Ejecutar seeders
 
-    docker compose exec app php artisan db:seed
+    php artisan db:seed
 
 ## 👤 8. Usuario de prueba
 
@@ -50,29 +50,15 @@ Contraseña:
 
 ## ▶️ 9. Compilar assets del frontend
 
-Modo desarrollo:
+Modo desarrollo cliente:
 
     npm run dev
 
-Modo producción:
+Modo desarrollo servidor:
 
-    npm run build
+    php artisan serve
 
 ## 📌 Notas importantes
 
 -   No necesitas configurar Nginx. Todo está integrado en Docker.
 -   Para reiniciar contenedores:
-
-```{=html}
-<!-- -->
-```
-
-    docker compose restart
-
--   Para ver logs:
-
-```{=html}
-<!-- -->
-```
-
-    docker compose logs -f
