@@ -58,6 +58,15 @@ Modo desarrollo servidor:
 
     php artisan serve
 
+### 10. Configurar .env
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5032
+DB_DATABASE=payrollsystemdb
+DB_USERNAME=root
+DB_PASSWORD=123456
+
 ## 📌 Notas importantes
 
 -   No necesitas configurar Nginx. Todo está integrado en Docker.
