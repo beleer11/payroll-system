@@ -1,5 +1,22 @@
 # 📘 Guía de Instalación del Proyecto Sistema de Nomina
 
+<img width="1875" height="966" alt="image" src="https://github.com/user-attachments/assets/a4fe34d2-344e-419e-b32c-4d36acb9d47d" />
+
+<img width="1881" height="989" alt="image" src="https://github.com/user-attachments/assets/330be0a9-77fc-4ae3-91ea-5db984bc0fe4" />
+
+<img width="1878" height="979" alt="image" src="https://github.com/user-attachments/assets/79bba6d8-600a-4ea8-ae2c-66a0794650c0" />
+
+<img width="1872" height="980" alt="image" src="https://github.com/user-attachments/assets/bd3fc9ce-3cc2-4c33-a276-fa615e1e14d5" />
+
+<img width="1582" height="890" alt="image" src="https://github.com/user-attachments/assets/e8f5c37d-24b8-486d-a0fe-3c6519b56458" />
+
+<img width="1893" height="983" alt="image" src="https://github.com/user-attachments/assets/dbcb21a6-85fd-48d7-a0ae-d03f2c8bfcc4" />
+
+<img width="1716" height="937" alt="image" src="https://github.com/user-attachments/assets/45343833-9224-4df4-a682-b56ef556767b" />
+
+<img width="1691" height="919" alt="image" src="https://github.com/user-attachments/assets/b2e06a5d-fe04-424c-a6f0-e75a3a827bf6" />
+
+
 Este documento explica paso a paso cómo instalar, configurar y ejecutar
 el proyecto en un entorno local utilizando Docker. Sigue cada
 instrucción en orden para garantizar una instalación correcta.
